@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "636120019895",
+    "firebase_url": "https://fitness24-344f2.firebaseio.com",
+    "project_id": "fitness24-344f2",
+    "storage_bucket": "fitness24-344f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636120019895:android:94ad014d37f4a2b4c02e32",
+        "android_client_info": {
+          "package_name": "com.app.fitness24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636120019895-t6flhf53qplbm72q7me6dtbnjoqupfic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtObiiT3uB9vq9JiDgT-ZgiGu3iL8NHK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636120019895-t6flhf53qplbm72q7me6dtbnjoqupfic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

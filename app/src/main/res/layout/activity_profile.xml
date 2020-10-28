@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="System of measurement"
+        android:textSize="@dimen/_20ssp" />
+
+    <RadioGroup
+        android:id="@+id/rg_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_metric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:padding="@dimen/_4sdp"
+            android:text="Metric"
+            android:textSize="@dimen/_15ssp" />
+
+        <RadioButton
+            android:id="@+id/rb_imperial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:padding="@dimen/_4sdp"
+            android:text="Imperial"
+            android:textSize="@dimen/_15ssp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:enabled="false"
+        android:hint="Enter height in meters."
+        android:inputType="numberDecimal"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_15ssp" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:enabled="false"
+        android:hint="Enter weight in kilograms."
+        android:inputType="numberDecimal"
+        android:padding="@dimen/_8sdp"
+        android:textSize="@dimen/_15ssp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:padding="@dimen/_4sdp"
+        android:text="Edit"
+        android:textSize="@dimen/_15ssp" />
+
+
+</LinearLayout>

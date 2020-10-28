@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:gravity="center"
+        android:padding="@dimen/_4sdp"
+        android:text="System of measurement"
+        android:textSize="@dimen/_20ssp" />
+
+    <RadioGroup
+        android:id="@+id/rg_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_metric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:padding="@dimen/_4sdp"
+            android:text="Metric"
+            android:textSize="@dimen/_16ssp" />
+
+        <RadioButton
+            android:id="@+id/rb_imperial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:padding="@dimen/_4sdp"
+            android:text="Imperial"
+            android:textSize="@dimen/_16ssp" />
+    </RadioGroup>
+
+
+</LinearLayout>
